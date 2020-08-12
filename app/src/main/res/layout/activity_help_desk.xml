@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#111111"
+    tools:context=".HelpDesk">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:text="HELP DESK :"
+        android:textSize="20dp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="For any Queries regarding our service contact us on the given informations below -"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="1. Help Line number for emergency - 567839"
+        android:textColor="#ffffff"/>
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_marginTop="195dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:text="2. E-mail us for any query"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_marginTop="670dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Back" />
+
+
+</RelativeLayout>
